@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -mindepth 1 -maxdepth 1 -type d -print0 | wc -l --files0-from=-
+find . -type d -not -name | wc -l 
